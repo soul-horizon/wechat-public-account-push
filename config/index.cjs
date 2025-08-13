@@ -6,6 +6,8 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  // 使用push-plus，https://www.pushplus.plus/
+  USE_PASSAGE: 'push-plus',
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wxf56af831301a5adb',
@@ -21,9 +23,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '网',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'olcOvvpyBhHLH0WuTwFqTF11UpPA',
+      id: '74c6680317924018a397f0031eedb989',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'JxwsHtVUwqxAyX9x2MlFXClZ5jEPEDGsold8-fERR9c',
+      useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-03',
       festivals: [
